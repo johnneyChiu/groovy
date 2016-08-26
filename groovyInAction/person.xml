@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf8'?>
+<?xml-stylesheet type='text/xsl' href='myfile.xslt'?>
+<person1 id='100' xmlns='http://myDefaultNamespace' xmlns:location='http://someOtherNamespace'>
+<firstname>Jane</firstname>
+<lastname>Doe</lastname>
+<![CDATA[<!-- address is new to this release -->]]>
+<location:address>123 Main</location:address>
+</person1>
